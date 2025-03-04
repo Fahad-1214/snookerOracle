@@ -12,14 +12,14 @@ const Header = () => {
     { name: 'Privacy Policy', route: '/' },
     { name: 'Shop', route: '/' },
     { name: 'About Us', route: '/about-us' },
-    { name: 'Enter Site', route: '/snooker-oracle' },
+    { name: 'Enter Site', route: '/snooker-oracle' }
   ];
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* You can replace "Logo" with your actual logo component or image */}
-        <div className="text-xl font-bold">Logo</div>
+        <a href="/" className="text-xl  font-bold">Logo</a>
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex">
